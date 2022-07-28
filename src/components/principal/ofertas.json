@@ -2,7 +2,8 @@
   "collectionName": "components_principal_ofertas",
   "info": {
     "displayName": "Ofertas",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,14 +11,18 @@
       "type": "string"
     },
     "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "nombre": {
+      "type": "string"
     }
   }
 }
