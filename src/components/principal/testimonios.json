@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_principal_testimonios",
+  "info": {
+    "displayName": "Testimonios",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "descripcion": {
+      "type": "text"
+    },
+    "usuario_nombre": {
+      "type": "string"
+    },
+    "usuario_imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

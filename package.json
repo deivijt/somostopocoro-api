@@ -15,7 +15,9 @@
     "@strapi/plugin-users-permissions": "4.1.9",
     "@strapi/provider-upload-cloudinary": "4.1.9",
     "@strapi/strapi": "4.1.9",
-    "pg": "8.7.3"
+    "pg": "8.7.3",
+    "strapi-plugin-populate-deep": "^0.1.2",
+    "strapi-plugin-transformer": "^2.0.2"
   },
   "author": {
     "name": "A Strapi developer"

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_principal_nuestra_ofertas",
+  "info": {
+    "displayName": "Nuestra oferta",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ofertas": {
+      "displayName": "Ofertas",
+      "type": "component",
+      "repeatable": true,
+      "component": "principal.ofertas"
+    }
+  }
+}

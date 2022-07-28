@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_principal_portadas",
+  "info": {
+    "displayName": "Portada",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagenes": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_principal_nuestros_eventos",
+  "info": {
+    "displayName": "Nuestros eventos",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "fecha": {
+      "type": "datetime"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

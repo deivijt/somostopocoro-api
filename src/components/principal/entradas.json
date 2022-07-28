@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_principal_entradas",
+  "info": {
+    "displayName": "Entradas",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "blog_post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-post.blog-post"
+    }
+  }
+}
