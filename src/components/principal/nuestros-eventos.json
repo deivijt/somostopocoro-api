@@ -2,28 +2,22 @@
   "collectionName": "components_principal_nuestros_eventos",
   "info": {
     "displayName": "Nuestros eventos",
-    "icon": "ankh"
+    "icon": "ankh",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "nombre": {
-      "type": "string"
-    },
     "descripcion": {
       "type": "text"
     },
-    "fecha": {
-      "type": "datetime"
+    "titulo": {
+      "type": "string"
     },
-    "imagen": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "eventos": {
+      "displayName": "Eventos",
+      "type": "component",
+      "repeatable": true,
+      "component": "principal.eventos"
     }
   }
 }

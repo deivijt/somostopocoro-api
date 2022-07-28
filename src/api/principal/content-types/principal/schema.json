@@ -30,10 +30,10 @@
       "repeatable": false,
       "component": "principal.nuestra-oferta"
     },
-    "eventos": {
+    "nuestros_eventos": {
       "displayName": "Nuestros eventos",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "principal.nuestros-eventos"
     },
     "testimonios": {
