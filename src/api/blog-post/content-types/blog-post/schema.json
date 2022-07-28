@@ -12,17 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "titulo": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "descripcion": {
       "type": "text"
     },
-    "content": {
+    "contenido": {
       "type": "richtext"
     },
-    "author": {
+    "autor": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "admin::user"
