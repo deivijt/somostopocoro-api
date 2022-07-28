@@ -26,6 +26,26 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "admin::user"
+    },
+    "imagen_tarjeta": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "imagen_portada": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
