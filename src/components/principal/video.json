@@ -7,19 +7,21 @@
   },
   "options": {},
   "attributes": {
-    "video": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "videos"
-      ]
-    },
     "titulo": {
       "type": "string"
     },
     "video_url": {
       "type": "string"
+    },
+    "imagen_fondo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
